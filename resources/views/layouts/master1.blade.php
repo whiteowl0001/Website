@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laura Bootstrap Theme</title>
-    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <title>Kevin Morales Web Developer</title>
+    <meta name="description" content="Free Lance Web Developer">
+    <meta name="keywords" content="kevin morales, web developer">
     
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto:300,400|Questrial|Satisfy">
     <link rel="stylesheet" type="text/css" href="css/Portfolio/css/bootstrap.min.css">
