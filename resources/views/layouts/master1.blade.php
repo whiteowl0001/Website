@@ -36,8 +36,8 @@
             <div class="collapse navbar-collapse" id="lauraMenu">
               <ul class="nav navbar-nav navbar-right navbar-border">
                 <li class="active"><a href="/">Home</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#main-portfolio">Portfolio</a></li>
               </ul>
             </div>
           </div>
@@ -65,7 +65,7 @@
       <div class="row">
           <div class="col-md-6">
               <div class="footer">
-                  © Copyright Laura Theme. All Rights Reserved
+                  © Copyright Kevin Theme. All Rights Reserved
                     <div class="credits">
                         <!-- 
                             All the links in the footer should remain intact. 
@@ -73,7 +73,7 @@
                             Licensing information: https://bootstrapmade.com/license/
                             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Laura
                         -->
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+                        Designed by <a href="#">Kevin Morales</a>
                     </div>
               </div>
           </div>
@@ -81,22 +81,17 @@
               <ul class="social-list">
                   <li>
                       <a href="#">
-                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-facebook"></i>
                       </a>
                   </li>
                   <li>
                       <a href="#">
-                          <i class="fa fa-dribbble"></i>
+                          <i class="fa fa-github"></i>
                       </a>
                   </li>
                   <li>
                       <a href="#">
-                          <i class="fa fa-vimeo"></i>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="#">
-                          <i class="fa fa-instagram"></i>
+                          <i class="fa fa-google-plus"></i>
                       </a>
                   </li>
               </ul>
