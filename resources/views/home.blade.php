@@ -1,6 +1,8 @@
 @extends('layouts.master1')
 @section('content')
 <!--Portfolio-->  
+<!-- Button trigger modal -->
+
 <div id="skills" class="home">
     <h1>SKILLS</h1>
         <div class="container">
@@ -13,7 +15,7 @@
                                 <p>Structure Webpages with html 5.</p>
                         </div>
                         <div class="col-md-4 col-sm-6">
-                             <img src="images/css3.jpeg">
+                             <img src="images/css3.png">
                                 <h4>
                                     <strong>CSS 3</strong>
                                 </h4>
@@ -41,11 +43,11 @@
                                 <p>Utilize MySql Database.</p>
                         </div>
                          <div class="col-md-4 col-md-6">
-                              <img src="images/seo-logo.png">
+                              <img src="images/wordpress-logo.png">
                                 <h4>
-                                    <strong>Seo</strong>
+                                    <strong>WordPress</strong>
                                 </h4>
-                                <p>Intergrate Seo strategies into code.</p>
+                                <p>Customize Wordpress Themes.</p>
                         </div>
                 </div>
             </div>

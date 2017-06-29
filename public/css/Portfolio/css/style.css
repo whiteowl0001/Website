@@ -48,9 +48,9 @@ Responsive media queries
     position: relative;
 }
 .navbar-default {
-    background-color: transparent;
-	border: 0px;
-    padding: 20px 0;
+    background-color: rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding: 0;
     transition: all 0.3s;
 }
 .navbar-brand {
@@ -62,23 +62,26 @@ Responsive media queries
     outline: none;
 }
 .navbar-default .navbar-nav > li > a{
-	font-size: 14px;
-	font-weight: 400;
-	color: #fff;
-    outline: none;
+	color: white;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 30px;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #fffde0;
+    color: #fff;
     background-color: transparent;
+    text-decoration: underline;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #fffde0;
+    color: #fff;
     background-color: transparent;
 }
 
 .top-nav-collapse {
     padding: 0; 
-    background: rgba(50,60,70, 0.9);
+    background-color: black;
 }
 
 .bg-color{
@@ -439,7 +442,9 @@ Responsive media queries
 }
 
 .home{
-    padding-top: 50px
+    padding-top: 50px;
+    background-color: black;
+    padding-bottom: 25px;
 }
 .home img{
     width: auto;
@@ -475,7 +480,7 @@ Responsive media queries
 }
 
 #main-portfolio{
-    margin-top: 100px;
+    margin-top: 75px;
     text-align: center;
 }
 
@@ -487,4 +492,11 @@ Responsive media queries
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 50px;
+    color: white;
+}
+.home p{
+    color: white;
+}
+strong{
+    color: white;
 }
