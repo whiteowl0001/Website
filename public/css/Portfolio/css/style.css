@@ -42,7 +42,7 @@ Responsive media queries
 ************************************
 ***********************************/
 .header {
-    background: url('/img/portfolio/background-personal.jpg') no-repeat fixed;
+    background: url('/img/portfolio/Home.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     position: relative;
