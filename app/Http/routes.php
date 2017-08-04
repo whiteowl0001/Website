@@ -35,3 +35,6 @@ Route::get('/lone-wolf', function(){
 Route::get('/contact', function(){
     return view('contact');
 });
+Route::get('/development', function(){
+    return view('development');
+});

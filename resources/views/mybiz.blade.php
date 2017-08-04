@@ -165,7 +165,6 @@
 					<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 						<div class="portfolio-heading">
 							<h2>portfolio</h2> 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus magna,malesuada porta elementum vitae.</p>
 						</div>
 					</div>
 
@@ -268,7 +267,6 @@
 					<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 						<div class="get-touch-heading">
 							<h2>get in touch</h2> 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus magna,malesuada porta elementum vitae.</p>
 						</div>
 					</div>
 				</div>   
@@ -311,16 +309,6 @@
             </div>	
 	    	</div>
 		</div>
-
-
-		<!--contact-->
-		<div id="">
-
-	    	<div id="google-map" data-latitude="40.827901" data-longitude="-74.148721"></div>
-          
-		</div>
-
-
 		<!--footer-->
 		<div id="footer">
 			<div class="container">

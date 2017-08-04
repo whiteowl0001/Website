@@ -42,7 +42,7 @@ Responsive media queries
 ************************************
 ***********************************/
 .header {
-    background: url('/img/portfolio/Home.jpg') no-repeat fixed;
+    background: url('/img/portfolio/background-personal.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     position: relative;
@@ -72,6 +72,7 @@ Responsive media queries
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #fff;
     background-color: transparent;
+    border-radius: 15px;
     text-decoration: underline;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -88,8 +89,7 @@ Responsive media queries
 	background-color: RGBA(0, 0, 0, 0.67);
 	min-height: 650px;
 }
-.navbar-border{
-}
+
 .banner-text{
 	border-left: 5px solid #01b1d7;
 	padding: 15px 40px;

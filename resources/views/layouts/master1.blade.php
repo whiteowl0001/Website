@@ -77,6 +77,7 @@
                     </div>
               </div>
           </div>
+          <!--
           <div class="col-md-6 text-right">
               <ul class="social-list">
                   <li>
@@ -96,7 +97,7 @@
                   </li>
               </ul>
           </div>
-          
+          -->
       </div>
       <!--end row-->
     </div>
