@@ -38,3 +38,6 @@ Route::get('/contact', function(){
 Route::get('/development', function(){
     return view('development');
 });
+Route::get('/dog', function(){
+    return view('dog');
+});

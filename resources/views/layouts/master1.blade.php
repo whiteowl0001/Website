@@ -48,8 +48,8 @@
           <div class="row">
             <div class="col-md-12 wow fadeIn delay-05s">
               <div class="banner-text">
-                <h2>Hi, I am <span>Kevin</span> Morales,</h2>
-                <p>A Full Stack<br>Web Developer</p>
+                <h2>Kevin Morales,</h2>
+                <p>Full Stack<br>Web Developer</p>
               </div>
             </div>
           </div>

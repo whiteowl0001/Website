@@ -3,6 +3,53 @@
 <!--Portfolio-->  
 <!-- Button trigger modal -->
 
+      <div id="about">
+        <div class="container">
+          <h1>I Build Online Pressense For Your Company.</h1> 
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-md-offset-1 about-description">
+                <a class="about-card">
+                    <div class="card-icon"> 
+                    <span class="fa-stack fa-3x">
+                      <i class="fa fa-circle fa-stack-2x"></i>                                            
+                      <i class="fa fa-code fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    </span>
+                      <h3>Web Development</h3>
+                      <p>Incorporate HTML 5 and CSS 3 for front end development and PHP for backend dynamic sites.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-md-offset-1 about-description">
+              <a class="about-card">
+                <div class="card-icon">
+                     <span class="fa-stack fa-3x">
+                      <i class="fa fa-circle fa-stack-2x"></i>                                            
+                      <i class="fa fa-search fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    </span>
+                <h3>SEO</h3>
+                <p>Find the best keywords for your buisness and tie them to tilte, headers, and meta tags in html code.</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-md-offset-1 about-description">
+              <a  class="about-card">
+                <div class="card-icon">
+                     <span class="fa-stack fa-3x">
+                      <i class="fa fa-circle fa-stack-2x"></i>                                            
+                      <i class="fa fa-mobile fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                    </span>
+                <h3>Mobile Responsive</h3>
+                <p>Unitilze Bootstrap to create mobile friendly websites.</p>
+                </div>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--
 <div id="skills" class="home">
     <h1>SKILLS</h1>
         <div class="container">
@@ -52,7 +99,7 @@
                 </div>
             </div>
 </div>
-
+-->
 <section id="main-portfolio" class="no-padding">
     <h1>PORTFOLIO</h1>
         <div class="container-fluid">
