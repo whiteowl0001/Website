@@ -130,11 +130,11 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
-                        <img src="img/portfolio/Roof.png" class="img-responsive" alt="Image 3">
+                        <img src="img/portfolio/lawyer.png" class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
-                                   <a href="/roofing">Roofing</a>
+                                   <a href="/lawyer">Lawyer</a>
                                 </div>
                             </div>
                         </div>
@@ -147,30 +147,6 @@
                             <div class="gallery-box-content">
                                 <div>
                                    <a href="/superformance">Car</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
-                        <img src="img/portfolio/lawyer.png" class="img-responsive" alt="Image 3">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                   <a href="/lawyer">Lawyer</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
-                        <img src="img/portfolio/harmony.png" class="img-responsive" alt="Image 3">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                   <a href="/superformance">Harmony</a>
                                 </div>
                             </div>
                         </div>
