@@ -41,3 +41,6 @@ Route::get('/development', function(){
 Route::get('/dog', function(){
     return view('dog');
 });
+Route::get('/lawyer', function(){
+    return view('lawyer');
+});

@@ -1,0 +1,145 @@
+.navbar-nav>li>a {
+    color: black;
+}
+.fa-2x {
+    font-size: 2em;
+    color: white;
+}
+#main-nav.affix {
+    background-color: rgba(2, 2, 2, 0.9);
+}
+.top-left p {
+    font-family: "Libre Franklin",Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 14px;
+}
+.top-left p:before {
+    color: #cca776;
+}
+.top-nav {
+    border-bottom: 1px solid black;
+}
+header{
+    background: url(/img/lawyer/lawyer-background.jpg) no-repeat fixed;
+    background-size: cover;
+    min-height: 630px;
+    position: relative;
+}
+#main-nav .navbar-nav>li>a:hover, #main-nav .navbar-nav>li.active>a {
+    color: #cca776;
+    background: transparent;
+}
+.navbar-nav>li>a {
+    color: white;
+    font-family: "Libre Franklin",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.28;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+header .bg-color{
+	background-color: RGBA(0, 0, 0, 0.67);
+	min-height: 630px;
+}
+#slider .caption {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    left: auto !important;
+    padding-top: 260px;
+}
+#slider .caption h1{
+    font-size: 110px;
+    color: white;
+    font-family: "Playfair Display","Times New Roman",Times,serif;
+    left: auto !important;
+}
+#slider .caption span {
+    font-family: "Playfair Display","Times New Roman",Times,serif;
+    font-weight: 900;
+    background-color: transparent;
+    font-size: 40px;
+    line-height: 1.35;
+}
+#slider .caption button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 20px;
+    background-color: #cca776;
+    color: #fff;
+    border: 1px solid #000;
+    width: auto;
+}
+#slider .caption button:hover {
+    background-color: #fff;
+    border: 1px solid #cca776;
+    transition: 0.3s;
+    color: #cca776;
+}
+#awards{
+    background: url('/img/lawyer/atinaz.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 200px;
+    position: relative;
+    margin-top: 100px;
+}
+#awards .row{
+    padding-top: 40px;
+}
+.bg-color{
+	background-color: RGBA(0, 0, 0, 0.67);
+	min-height: 200px;
+}
+#footer .footer-heading span {
+    border-bottom: 2px solid #cca776;
+    padding-bottom: 8px;
+}
+#footer .footer-heading ul > li > a:hover {
+    color:  #cca776;
+}
+#get-touch .content .form .submit .btn {
+    border-color: #cca776;
+}
+#get-touch .content .form .submit .btn:hover {
+    background-color: #cca776;
+    color: #fff;
+}
+#service .service-footer-left h3 > span {
+    color: #cca776;
+}
+#service .service-footer-right button {
+    background-color: #cca776;
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    border-color: #cca776;
+}
+#service .service-footer-right button:hover {
+    background-color: #fff;
+    color: #cca776;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+    background: rgba(199, 143, 68, 0.43);
+    border-color: #cca776 !important;
+    outline: none;
+    color: #000;
+}
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(199, 143, 68, 0.43);
+}
+#about .about-heading h2 {
+    font-weight: 600;
+    font-size: 45px;
+    /* text-transform: uppercase; */
+    font-family: "Playfair Display","Times New Roman",Times,serif;
+}
+
+#bottom-footer .footer-right ul > li > a:hover {
+    color: #cca776;
+}
