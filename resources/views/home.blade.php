@@ -2,7 +2,7 @@
 @section('content')
 <!--Portfolio-->  
 <!-- Button trigger modal -->
-
+<!--
       <div id="about">
         <div class="container">
           <h1>I Build Online Pressense For Your Company.</h1> 
@@ -49,6 +49,7 @@
           </div>
         </div>
       </div>
+      -->
 <!--
 <div id="skills" class="home">
     <h1>SKILLS</h1>
