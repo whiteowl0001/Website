@@ -44,3 +44,12 @@ Route::get('/dog', function(){
 Route::get('/lawyer', function(){
     return view('lawyer');
 });
+Route::get('/review', function(){
+    return view('review');
+});
+Route::get('/mockup-nc', function(){
+    return view('mockup-nc');
+});
+Route::get('/daycare', function(){
+    return view('daycare');
+});

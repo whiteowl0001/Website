@@ -1,0 +1,9 @@
+#main-nav.affix {
+    background-color: #3b948d;
+}
+.navbar-nav>li>a {
+    color: white;
+}
+#main-nav {
+    background-color: #3b948d;
+}
