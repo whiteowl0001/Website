@@ -1,18 +1,46 @@
-@extends('layouts.master1')
-@section('content')
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link href="css/code/style.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script>
+        function Code_Display(language){
+            if( language == 'HTML'){
+                if(document.getElementById("HTML").style.display == 'none'){
+                    document.getElementById("HTML").style.display = 'block';
+                    document.getElementById("CSS").style.display = 'none';
+                    document.getElementById("Crawler").style.display = 'none';
 
-    <section id="skills">
-        <div id="main" class="full-wh">
+                }
+            }else if( language == 'CSS'){
+                if(document.getElementById("CSS").style.display == 'none'){
+                document.getElementById("HTML").style.display = 'none';
+                document.getElementById("CSS").style.display = 'block';
+                document.getElementById("Crawler").style.display = 'none';
+                
+                }
+            }else{
+                document.getElementById("HTML").style.display = 'none';
+                document.getElementById("CSS").style.display = 'none';
+                document.getElementById("Crawler").style.display = 'block';
+            }
+        };
+        </script>
+    </head>
+    <body>
+         <div id="main" class="full-wh">
             <div class="main-container">
                 <div id="container" class="main-pane left-pane">
-                    <h2>Example Code</h2>
+                    <h2>Code Example</h2>
                     <button value="HTML" onclick="Code_Display(this.value)">HTML</button>
                     <button value="CSS" onclick="Code_Display(this.value)">CSS</button>
                     <button value="Crawler" onclick="Code_Display(this.value)">Crawler</button>
                 </div>
-                <div class="col-md-6 col-sm-6 main-pane right-pane">
-                    <table id="HTML" class=" js-file-line-container">
-                        <h2>HTML</h2>
+                <div class="main-pane right-pane">
+                    <table id="HTML" class="js-file-line-container">
                         <tbody>
                             <tr>
                                 <td id="LC5" class="blob-code js-file-line">
@@ -106,7 +134,6 @@
                         </tbody>
                     </table>
                     <table id="CSS" style="display: none;" class="js-file-line-container">
-                        <h2>CSS</h2>
                         <tbody>
                             <tr>
                                 <td id="LC5" class="blob-code js-file-line">
@@ -142,7 +169,6 @@
                         </tbody>
                     </table>
                     <table id="Crawler" style="display: none;" class="js-file-line-container">
-                        <h2>PHP</h2>
                         <tbody>
                             <tr>
                                 <td id="LC5" class="blob-code js-file-line">
@@ -198,72 +224,5 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section id="main-portfolio" class="no-padding">
-        <h1>PORTFOLIO</h1>
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/deer.jpg">
-                        <img src="img/portfolio/lone.png" class="img-responsive" alt="Image 1">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <a href="/lone-wolf">Lone Wolf</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/beach.jpg">
-                        <img src="img/portfolio/Painting.png" class="img-responsive" alt="Image 2">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <a href="/mybiz">Painting</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
-                        <img src="img/portfolio/lawyer.png" class="img-responsive" alt="Image 3">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                   <a href="/lawyer">Lawyer</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
-                        <img src="img/portfolio/superformance.png" class="img-responsive" alt="Image 3">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                   <a href="/superformance">Car</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
-                        <img src="images/woocommerce/woocommerce.png" class="img-responsive" alt="Image 3">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                   <a href="#">Woocommerce</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-@stop
+    </body>
+</html>

@@ -53,3 +53,6 @@ Route::get('/mockup-nc', function(){
 Route::get('/daycare', function(){
     return view('daycare');
 });
+Route::get('/code', function(){
+    return view('code');
+});

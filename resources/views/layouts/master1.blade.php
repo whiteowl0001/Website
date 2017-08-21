@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/Portfolio/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/Portfolio/css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/Portfolio/css/style.css">
+    <link href="css/code/style.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/ad5057c19b.js"></script>
     <!-- =======================================================
         Theme Name: Laura
@@ -18,6 +19,29 @@
         Author: BootstrapMade.com
         Author URL: https://bootstrapmade.com
     ======================================================= -->
+     <script>
+        function Code_Display(language){
+            if( language == 'HTML'){
+                if(document.getElementById("HTML").style.display == 'none'){
+                    document.getElementById("HTML").style.display = 'block';
+                    document.getElementById("CSS").style.display = 'none';
+                    document.getElementById("Crawler").style.display = 'none';
+
+                }
+            }else if( language == 'CSS'){
+                if(document.getElementById("CSS").style.display == 'none'){
+                document.getElementById("HTML").style.display = 'none';
+                document.getElementById("CSS").style.display = 'block';
+                document.getElementById("Crawler").style.display = 'none';
+                
+                }
+            }else{
+                document.getElementById("HTML").style.display = 'none';
+                document.getElementById("CSS").style.display = 'none';
+                document.getElementById("Crawler").style.display = 'block';
+            }
+        };
+        </script>
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="myFunction()">
   <div class="header">
@@ -48,8 +72,9 @@
           <div class="row">
             <div class="col-md-12 wow fadeIn delay-05s">
               <div class="banner-text">
-                <h2>Kevin Morales,</h2>
-                <p>Full Stack<br>Web Developer</p>
+                <h2>Hello</h2>
+                <h3>I'M Kevin Morales</h3>
+                <p>And I'M A Full Stack<br>Web Developer</p>
               </div>
             </div>
           </div>
