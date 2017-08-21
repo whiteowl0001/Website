@@ -11,8 +11,8 @@
                     <button value="Crawler" onclick="Code_Display(this.value)">Crawler</button>
                 </div>
                 <div class="col-md-6 col-sm-6 main-pane right-pane">
+                    <h2>Code</h2>
                     <table id="HTML" class=" js-file-line-container">
-                        <h2>HTML</h2>
                         <tbody>
                             <tr>
                                 <td id="LC5" class="blob-code js-file-line">
@@ -106,7 +106,6 @@
                         </tbody>
                     </table>
                     <table id="CSS" style="display: none;" class="js-file-line-container">
-                        <h2>CSS</h2>
                         <tbody>
                             <tr>
                                 <td id="LC5" class="blob-code js-file-line">
@@ -142,7 +141,6 @@
                         </tbody>
                     </table>
                     <table id="Crawler" style="display: none;" class="js-file-line-container">
-                        <h2>PHP</h2>
                         <tbody>
                             <tr>
                                 <td id="LC5" class="blob-code js-file-line">
