@@ -201,7 +201,7 @@
         <h1>PORTFOLIO</h1>
         <div class="container-fluid">
             <div class="row no-gutter">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="gallery-box" data-toggle="modal" data-src="./assets/deer.jpg">
                         <img src="img/portfolio/lone.png" class="img-responsive" alt="Image 1">
                         <div class="gallery-box-caption">
@@ -213,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="gallery-box" data-toggle="modal" data-src="./assets/beach.jpg">
                         <img src="img/portfolio/Painting.png" class="img-responsive" alt="Image 2">
                         <div class="gallery-box-caption">
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
                         <img src="img/portfolio/lawyer.png" class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
@@ -237,25 +237,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
                         <img src="img/portfolio/superformance.png" class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
                                    <a href="/superformance">Car</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
-                        <img src="images/woocommerce/woocommerce.png" class="img-responsive" alt="Image 3">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                   <a href="#">Woocommerce</a>
                                 </div>
                             </div>
                         </div>
