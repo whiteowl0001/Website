@@ -37,6 +37,7 @@ div#main {
     background: linear-gradient(hsl(249,14%,24%),hsl(249,14%,14%));
     border-right: 1px solid #333;
     width: 35%;
+    text-align: -webkit-center;
 }
 .left-pane button{
      text-align: center;
