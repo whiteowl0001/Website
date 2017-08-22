@@ -141,3 +141,11 @@ button, input, select, textarea {
     color: white;
     border: none;
 }
+.navbar-default .navbar-nav > li > a {
+    font-weight: 100;
+    font-size: 16px;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
