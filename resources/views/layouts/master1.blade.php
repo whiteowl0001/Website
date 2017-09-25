@@ -42,12 +42,12 @@
             }
         };
         </script>
+     
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="myFunction()">
   <div class="header">
-      <div class="bg-color">
         <header id="main-header">
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top hidden">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lauraMenu">
@@ -55,13 +55,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Kevin</a>
+              <a class="navbar-brand wow fadeIn delay-05s" href="#">Kevin</a>
             </div>
             <div class="collapse navbar-collapse" id="lauraMenu">
               <ul class="nav navbar-nav navbar-right navbar-border">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#main-portfolio">Portfolio</a></li>
+                <li class="active wow fadeIn delay-05s"><a href="/">Home</a></li>
+                <li class="wow fadeIn delay-05s"><a href="#skills ">Skills</a></li>
+                <li class="wow fadeIn delay-05s"><a href="#main-portfolio">Portfolio</a></li>
               </ul>
             </div>
           </div>
@@ -70,16 +70,15 @@
         <div class="wrapper">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 wow fadeIn delay-05s">
-              <div class="banner-text">
-                <h2>Hello</h2>
-                <h3>I'M Kevin Morales</h3>
-                <p>And I'M A Full Stack<br>Web Developer</p>
+            <div class="col-md-12">
+              <div class="banner-text hidden">
+                <h2 class="h2-fade wow fadeIn delay-05s">Hello</h2>
+                <h3 class="wow fadeIn delay-05s">I'M Kevin Morales</h3>
+                <p class="wow fadeIn delay-05s">And I'M A Full Stack<br>Web Developer</p>
               </div>
             </div>
           </div>
           </div>
-        </div>
         </div>
       </div>
       @yield('content')
@@ -129,6 +128,22 @@
     <script src="js/portfolio/js/wow.js"></script>
     <script src="js/portfolio/js/custom.js"></script>
     <!--<script src="contactform/contactform.js"></script>-->
-    
+    <script>
+
+      $(function(){
+        setTimeout(function(){
+        $('.navbar').removeClass('hidden');
+        }, 3000);
+        
+      }) ();
+    </script>
+     <script>
+      $(function(){
+        setTimeout(function(){
+        $('.banner-text').removeClass('hidden');
+        }, 1000);
+        
+      }) ();
+    </script>
   </body>
 </html>

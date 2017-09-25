@@ -22,10 +22,20 @@ div#main {
     height: 100%;
     width: 100%;
 }
+#skills .left-pane{
+    background-color: black;
+    width: 45%
+}
+#skills .right-pane{
+    width: 55%
+}
+#main-portfolio .left-pane{
+    background-color: black;
+}
 .left-pane h2{
     color:#01b1d7;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 150px;
 }
 .left-pane li {
     color:#01b1d7;
@@ -33,18 +43,17 @@ div#main {
     list-style-type: none;
 }
 .left-pane {
-    background: -webkit-linear-gradient(hsl(249,14%,24%),hsl(249,14%,14%));
-    background: linear-gradient(hsl(249,14%,24%),hsl(249,14%,14%));
+    background-color: white;
     border-right: 1px solid #333;
-    width: 35%;
+    width: 60%;
     text-align: -webkit-center;
 }
 .left-pane button{
      text-align: center;
 }
 .main-pane {
-    width: 40%;
-    height: 100%;
+    width: 60%;
+    height: 100vh;
     display: inline-block;
     vertical-align: top;
     overflow: hidden;
@@ -55,7 +64,7 @@ div#main {
     position: absolute;
     background: -webkit-linear-gradient(hsl(249,14%,24%),hsl(249,14%,14%));
     background: linear-gradient(hsl(249,14%,24%),hsl(249,14%,14%));
-    width: 60%;
+    width: 40%;
 }
 
 .full-wh {
@@ -132,9 +141,10 @@ div#main {
     -moz-osx-font-smoothing: grayscale;
 }
 .right-pane h2{
-    text-align: center;
-    color: #01b1d7;
+    text-align: left;
+    color: white;
     padding-top: 85px;
+    border-bottom: 1px solid #fff;
 }
 button, input, select, textarea {
     background: none;
@@ -148,4 +158,36 @@ button, input, select, textarea {
 .navbar-default .navbar-brand {
     color: white;
     font-family: 'Questrial', sans-serif;
+}
+.project_description h2{
+    border-bottom: 1px solid #999;
+}
+.button-next{
+    float: right;
+}
+.Porfolio-Buttons{
+    margin-top: 100px;
+}
+ul.menu-tags>li {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #ff0a33;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding: 2pt 3pt;
+    margin: 0 4pt 3pt 0;
+    border-radius: 3pt;
+    background: rgba(122,30,46,.298039);
+    font-size: 10pt;
+}
+.gallery-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+    overflow: hidden;
+    margin-top: 220px;
 }

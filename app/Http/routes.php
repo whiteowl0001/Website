@@ -56,3 +56,6 @@ Route::get('/daycare', function(){
 Route::get('/code', function(){
     return view('code');
 });
+Route::get('/volcan', function(){
+    return view('Volcan');
+});

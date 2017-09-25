@@ -1,7 +1,44 @@
 @extends('layouts.master1')
 @section('content')
+<script>
+     function Display_Project(language){
+            if( language == 'lone'){
+                if(document.getElementById("lone").style.display == 'none'){
+                    document.getElementById("lone").style.display = 'block';
+                    document.getElementById("lawyer").style.display = 'none';
+                    document.getElementById("super").style.display = 'none';
+                    document.getElementById("lauren").style.display = 'none';
 
-    <section id="skills">
+                }
+            }else if( language == 'lawyer'){
+                if(document.getElementById("lawyer").style.display == 'none'){
+                document.getElementById("lone").style.display = 'none';
+                document.getElementById("lawyer").style.display = 'block';
+                document.getElementById("super").style.display = 'none';
+                document.getElementById("lauren").style.display = 'none';
+
+                }
+            }else if( language == 'super'){
+                if(document.getElementById("super").style.display == 'none'){
+                document.getElementById("lone").style.display = 'none';
+                document.getElementById("lawyer").style.display = 'none';
+                document.getElementById("super").style.display = 'block';
+                document.getElementById("lauren").style.display = 'none';
+                }
+            }else if( language == 'lauren'){
+                if(document.getElementById("lauren").style.display == 'none'){
+                document.getElementById("lone").style.display = 'none';
+                document.getElementById("lawyer").style.display = 'none';
+                document.getElementById("super").style.display = 'none';
+                document.getElementById("lauren").style.display = 'block';
+            }else
+                document.getElementById("HTML").style.display = 'none';
+                document.getElementById("CSS").style.display = 'none';
+                document.getElementById("Crawler").style.display = 'block';
+                }
+        };
+</script>
+  <section id="skills">
         <div id="main" class="full-wh">
             <div class="main-container">
                 <div id="container" class="main-pane left-pane">
@@ -197,12 +234,12 @@
             </div>
         </div>
     </section>
-    <section id="main-portfolio" class="no-padding">
-        <h1>PORTFOLIO</h1>
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/deer.jpg">
+    <section id="main-portfolio">
+        <div id="main" class="full-wh">
+            <div class="main-container">
+                <div id="lone">
+                    <div id="container" class="main-pane left-pane">
+                        <div class="gallery-box" data-toggle="modal" data-src="./assets/deer.jpg">
                         <img src="img/portfolio/lone.png" class="img-responsive" alt="Image 1">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
@@ -212,21 +249,32 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/beach.jpg">
-                        <img src="img/portfolio/Painting.png" class="img-responsive" alt="Image 2">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <a href="/mybiz">Painting</a>
-                                </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 main-pane right-pane">
+                        <div class="Porfolio-Buttons">
+                                <button class="btn" value="" onclick="Display_Project(this.value)"><</button>
+                            <div class="button-next">
+                                <button  class="btn button-next" value="lawyer" onclick="Display_Project(this.value)">></button>
+                            </div>
+                        </div>
+                        <div class="js-file-line-container project_description">
+                            <h2>About</h2>
+                            <p>Lone Wolf was a personal site that was create in Laravel. This site contatined a content managment system that allowed the owner to create,
+                             delete, and edit product descriptions.</p>
+                            <h2>Tags</h2>
+                            <ul class="menu-tags">
+                                <li>Laravel</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>PHP</li>
+                                <li>MySql</li>
+                            </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
+                <div id="lawyer" style="display: none;">
+                    <div id="container" class="main-pane left-pane">
+                        <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
                         <img src="img/portfolio/lawyer.png" class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
@@ -236,9 +284,32 @@
                             </div>
                         </div>
                     </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 main-pane right-pane">
+                        <div class="Porfolio-Buttons">
+                                <button class="btn" value="lone" onclick="Display_Project(this.value)"><</button>
+                            <div class="button-next">
+                                <button class="btn button-next" value="super" onclick="Display_Project(this.value)">></button>
+                            </div>
+                        </div>
+                        <div class="js-file-line-container project_description">
+                            <h2>About</h2>
+                            <p>This site was created to showcase the desired look a contracting client wanted for a lawfirm. 
+                            </p>
+                            <h2>Tags</h2>
+                            <ul class="menu-tags">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Javascript</li>
+                                <li>JQuery</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
+                <div id="super" style="display: none;">
+                    <div id="container" class="main-pane left-pane">
+                         <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
                         <img src="img/portfolio/superformance.png" class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
@@ -248,8 +319,60 @@
                             </div>
                         </div>
                     </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 main-pane right-pane">
+                        <div class="Porfolio-Buttons">
+                                <button class="btn" value="lawyer" onclick="Display_Project(this.value)"><</button>
+                            <div class="button-next">
+                                <button class="btn button-next" value="lauren" onclick="Display_Project(this.value)">></button>
+                            </div>
+                        </div>
+                        <div class="js-file-line-container project_description">
+                            <h2>About</h2>
+                            <p></p>
+                            <h2>Tags</h2>
+                             <ul class="menu-tags">
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="lauren" style="display: none;">
+                    <div id="container" class="main-pane left-pane">
+                         <div class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
+                        <img src="images/squarespace/lauren.png" class="img-responsive" alt="Image 3">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                   <a href="https://www.laurenstotalwellness.com">Lauren</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 main-pane right-pane">
+                        <div class="Porfolio-Buttons">
+                                <button class="btn" value="lawyer" onclick="Display_Project(this.value)"><</button>
+                            <div class="button-next">
+                                <button class="btn button-next" value="lone" onclick="Display_Project(this.value)">></button>
+                            </div>
+                        </div>
+                        <div class="js-file-line-container project_description">
+                            <h2>About</h2>
+                            <p>Client was a personal wellness expert and wanted a Squarespace site to showcase her skills and 
+                            wellness package options. Site included contact form, and blog creation.</p>
+                            <h2>Tags</h2>
+                            <ul class="menu-tags">
+                                <li>Squarespace</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section id="about">
+        
     </section>
 @stop
